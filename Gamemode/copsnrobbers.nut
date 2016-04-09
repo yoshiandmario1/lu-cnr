@@ -1,5 +1,6 @@
 /*
-Lets Make Some NOISE!!
+Liberty Unleashed Cops and Robbers! V1.00A by 2204
+An Open-Source Gamemode
 */
 
 //message
@@ -35,10 +36,10 @@ function onPlayerEnteringVehicle( pPlayer, vehicle, seat )
 
 function onPlayerExitingVehicle( pPlayer, vehicle ) 
 {
-   local m = vehicle.Model;
-   if( vehicle.Model == 114 ) //bf injection crash fix
+	local m = vehicle.Model;
+   	if( vehicle.Model == 114 ) //bf injection crash fix
 	{
-      pPlayer.Vehicle = vehicle;
+      		pPlayer.Vehicle = vehicle;
 	}
 }
 
