@@ -1,0 +1,12 @@
+v1.00A Build 100:
+-Added /cmds command. (Shows you the commands)
+-Added /wanted command. (Shows you all wanted players in the server)
+-Added /ver command. (Shows you the version)
+-Added FBI Car, Rhino, Enforcer, and Securicar to the list of police vehicles.
+-Your wanted level now clears when you die.
+-Everything is now a little more organized.
+-Changed onPlayerEnteringVehicle to onPlayerEnteredVehicle
+-Message when players join the server 
+
+v1.00A Build 99:
+-Initial release.
